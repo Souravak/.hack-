@@ -257,7 +257,10 @@ a {
         top: 100%;
         width: 76%;
     }
+    .img-container {
+        margin-top: 50%;
+    }
     .pre-foot {
-        margin-top: 40%;
+        margin-top: 60%;
     }
 }
