@@ -130,6 +130,7 @@ a {
     height: auto;
     margin-left: 10%;
     border-radius: 10px;
+    box-shadow: 0px 0px 40px #351668;
 }
 
 .block-images-right {
@@ -138,6 +139,7 @@ a {
     left: 10%;
     margin-left: 65%;
     border-radius: 10px;
+    box-shadow: 0px 0px 40px #351668;
 }
 
 .img-text-block-left {
@@ -151,8 +153,9 @@ a {
     color: #fff;
     width: 50%;
     line-height: 2em;
-    padding: 40px 80px 40px 60px;
-    box-shadow: 0px 0px 30px #313237;
+    /*padding: 40px 80px 40px 60px;*/
+    padding: 30px 80px 30px 60px;
+    box-shadow: 0px 0px 40px #351668;
 }
 
 .img-text-block-right {
@@ -166,8 +169,8 @@ a {
     color: #fff;
     width: 50%;
     line-height: 2em;
-    padding: 40px 80px 40px 60px;
-    box-shadow: 0px 0px 30px #313237;
+    padding: 30px 80px 30px 60px;
+    box-shadow: 0px 0px 40px #351668;
 }
 
 .pre-foot {
@@ -177,6 +180,7 @@ a {
     color: white;
     text-align: center;
     font-weight: bold;
+    margin-top: 50px;
 }
 
 .pre-footer-box {
@@ -217,10 +221,19 @@ a {
     text-emphasis: bold;
 }
 
+.video {
+    margin-top: 50px;
+    width: 80%;
+    height: 500px;
+    box-shadow: 0px 0px 40px #351668;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
-/* Responsive layout - makes a one column-layout instead of a two-column layout */
 
-@Media (max-width:800px) {
+/* Responsive */
+
+@Media (max-width:1000px) {
     .flex-item1,
     .flex-item2,
     .flex-item3,
@@ -258,9 +271,6 @@ a {
         width: 76%;
     }
     .img-container {
-        margin-top: 50%;
-    }
-    .pre-foot {
-        margin-top: 60%;
+        margin-bottom: 350px;
     }
 }
